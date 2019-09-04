@@ -1,5 +1,5 @@
 {
-    "name": "mohammad-fouladgar/eloquent-builder",
+    "name": "mjahn/eloquent-builder",
     "description": "",
     "keywords": ["laravel","lumen","eloquent","search","filter","eloquent-builder"],
     "support": {
@@ -16,9 +16,9 @@
     "license" : "MIT",
     "require": {
         "php": "^7.1",
-        "illuminate/database": "~5.5.0|~5.6.0|~5.7.0|~5.8.0",
-        "illuminate/http": "~5.5.0|~5.6.0|~5.7.0|~5.8.0",
-        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0"
+        "illuminate/database": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|~6.0",
+        "illuminate/http": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|~6.0",
+        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|~6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.1",
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Fouladgar\\EloquentBuilder\\":"src/"
+            "Mjahn\\EloquentBuilder\\":"src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fouladgar\\EloquentBuilder\\Tests\\":"tests/"
+            "Mjahn\\EloquentBuilder\\Tests\\":"tests/"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel":{
             "providers":[
-                "Fouladgar\\EloquentBuilder\\ServiceProvider"
+                "Mjahn\\EloquentBuilder\\ServiceProvider"
             ],
             "aliases": {
-                "EloquentBuilder": "Fouladgar\\EloquentBuilder\\Facade"
+                "EloquentBuilder": "Mjahn\\EloquentBuilder\\Facade"
             }
         }
     },
